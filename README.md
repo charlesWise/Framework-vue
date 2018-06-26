@@ -4,11 +4,6 @@
 - CSS预处理器SCSS
 - axios与后端进行请求数据
 
-## 功能 ##
-
-## 说明
-    后端地址：>[GitHub：https://github.com/charlesWise/VUE-ELM-backend.git](https://github.com/charlesWise/VUE-ELM-backend.git)
-
 # 项目布局
 
 ```
