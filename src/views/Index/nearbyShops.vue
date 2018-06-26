@@ -19,7 +19,6 @@
         <div class="detail">
           <h4>{{item.name}}</h4>
           <div class="shopsMessage">
-            <v-star :score="item.wm_poi_score"></v-star>
             <span class="sellNum">{{item.month_sales_tip}}</span>
             <div class="delivery-info">
               <span class="deliverTime">{{item.delivery_time_tip}}/</span>

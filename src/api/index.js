@@ -1,4 +1,4 @@
-import config from '../config'
+import config from './config'
 import router from '@/router'
 import {removeInfo} from '@/utils/auth'
 
@@ -19,11 +19,9 @@ const axios = require('axios').create({
       removeInfo();
       router.push('/login');
     }
-
     return data;
   }]
 })
-
 
 // get
 export const _get = (req) => {

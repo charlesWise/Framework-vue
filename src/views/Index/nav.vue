@@ -17,7 +17,6 @@
 </template>
 
 <script>
-
   import {Swipe, SwipeItem} from 'mint-ui';
   import 'mint-ui/lib/style.css'
   import {mapGetters} from 'vuex'
@@ -88,12 +87,12 @@
     },
     components: {
       [Swipe.name]: Swipe,
-      [SwipeItem.name]: SwipeItem,
+      [SwipeItem.name]: SwipeItem
     },
     computed: {
       ...mapGetters(['address'])
     },
-    created() {
+    mounted() {
       let refs = this.$refs;
       let resArr = [...this.category_list_res];
       let foodArr = [];

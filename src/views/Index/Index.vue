@@ -22,16 +22,12 @@
       </div>
       <nearby-shops :scrollWrapper="scrollWrapper" v-if="locationReady"></nearby-shops>
     </div>
-    <!--小购物车-->
-    <little-cart>
-    </little-cart>
     <!--主页底部-->
     <v-bottom></v-bottom>
   </div>
 </template>
 
 <script>
-  import littleCart from '../../components/littleCart.vue'
   import nearbyShops from './nearbyShops.vue'
   import vNav from './nav.vue'
   import {mapGetters} from 'vuex'
@@ -61,8 +57,7 @@
     },
     components: {
       'nearby-shops': nearbyShops,
-      'v-nav': vNav,
-      'little-cart': littleCart
+      'v-nav': vNav
     }
   }
 </script>
